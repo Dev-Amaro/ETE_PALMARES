@@ -44,18 +44,18 @@
         </div>
     </nav>
 
-    <form class="needs-validation" novalidate>
+    <form action=https://formspree.io/f/xyyodzrq class="needs-validation" novalidate method="post">
         <div class="form-row">
           <div class="col-md-4 mb-3">
             <label for="validationCustom01">Primeiro nome</label>
-            <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" value="" required>
+            <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" value="" required name="pri_nome">
             <div class="valid-feedback">
               Tudo certo!
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <label for="validationCustom02">Sobrenome</label>
-            <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" value="Otto" required>
+            <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" value="Otto" required name="sobrenome">
             <div class="valid-feedback">
               Tudo certo!
             </div>
@@ -66,7 +66,7 @@
               <div class="input-group-prepend">
                 <span class="input-group-text" id="inputGroupPrepend">@</span>
               </div>
-              <input type="text" class="form-control" id="validationCustomUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend" required>
+              <input type="text" class="form-control" name="user" id="validationCustomUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend" required>
               <div class="invalid-feedback">
                 Por favor, escolha um nome de usuário.
               </div>
@@ -76,29 +76,29 @@
         <div class="form-row">
           <div class="col-md-6 mb-3">
             <label for="validationCustom03">Cidade</label>
-            <input type="text" class="form-control" id="validationCustom03" placeholder="Cidade" required>
+            <input type="text" class="form-control" id="validationCustom03" placeholder="Cidade" required name="cidade">
             <div class="invalid-feedback">
               Por favor, informe uma cidade válida.
             </div>
           </div>
           <div class="col-md-3 mb-3">
             <label for="validationCustom04">Estado</label>
-            <input type="text" class="form-control" id="validationCustom04" placeholder="Estado" required>
+            <input type="text" class="form-control" id="validationCustom04" placeholder="Estado" required name="estado">
             <div class="invalid-feedback">
               Por favor, informe um estado válido.
             </div>
           </div>
           <div class="col-md-3 mb-3">
-            <label for="validationCustom05">CEP</label>
-            <input type="text" class="form-control" id="validationCustom05" placeholder="CEP" required>
+            <label for="validationCustom05">Mensagem</label>
+            <textarea id="texto" name="message"></textarea>
             <div class="invalid-feedback">
-              Por favor, informe um CEP válido.
+              Por favor, informe uma mensagem válida.
             </div>
           </div>
         </div>
         <div class="form-group">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required name="check">
             <label class="form-check-label" for="invalidCheck">
               Concordo com os termos e condições
             </label>
