@@ -1,4 +1,8 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
+@import url(assets/scss/_nav.scss);
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
 @media(max-width: 600px){
     .logo{
         margin-top: 5%;
@@ -21,6 +25,31 @@
         }
     }
     @media(min-width: 540px){
+        .menu{
+            margin-right: 5%;
+        }
+    }
+    @media(min-width: 534px){
+        .menu{
+            margin-right: 5%;
+        }
+    }
+    @media(min-width: 513px){
+        .menu{
+            margin-right: 5%;
+        }
+    }
+    @media(min-width: 509px){
+        .menu{
+            margin-right: 5%;
+        }
+    }
+    @media(min-width: 504px){
+        .menu{
+            margin-right: 5%;
+        }
+    }
+    @media(min-width: 499px){
         .menu{
             margin-right: 5%;
         }
