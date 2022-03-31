@@ -1,5 +1,8 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css");
 @import url(assets/scss/_nav.scss);
+body{
+    position: relative;
+}
 .selector-for-some-widget {
     box-sizing: content-box;
   }
@@ -68,8 +71,34 @@
             font-size: 30px;
         }
         .s-m{
-            position: absolute;
+            position: relative;
             left: 15%;
+        }
+    }
+    @media(min-width: 419px){
+        .fera{
+            font-size: 30px;
+        }
+        .s-m{
+            position: relative;
+            align-items: center;
+            left: 15%;
+        }
+        .menu{
+            margin-right: 5%;
+        }
+    }
+    @media(min-width: 736px){
+        .fera{
+            font-size: 30px;
+        }
+        .s-m{
+            position: relative;
+            align-items: center;
+            left: 50%;
+        }
+        .menu{
+            margin-right: 15%;
         }
     }
 }
@@ -113,4 +142,7 @@
     align-items: center;
     transition: 0.4s;
     font-size: 24px;
+}
+.nav{
+    position: relative;
 }
