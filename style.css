@@ -101,6 +101,31 @@ body{
             margin-right: 15%;
         }
     }
+    @media(min-width: 375px){
+        .menu{
+            margin-right: 1%;
+        }
+        .fera{
+            font-size: 1.5rem;
+        }
+        .s-m .col-md-3 .col-lg-4 .col-xl-3 .mx-auto .mb-4{
+            position: relative;
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    @media(min-width: 360px){
+        .menu{
+            margin-right: 1%;
+        }
+        .fera{
+            font-size: 1.5rem;
+        }
+        .sm{
+            margin-right: 23%;
+        }
+    }
 }
 
 .banner{
