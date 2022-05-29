@@ -13,7 +13,7 @@ var usuarios = [
     {"login": "carlos", "senha": "carlos"},
 ];
 function novaAba(url){
-    var win = window.open(url, '_blank');
+   var win = window.open(url, '_self');
     win.focus();
 }
 
@@ -24,7 +24,6 @@ function Login() {
     for (var u in usuarios) {
         var us = usuarios[u];
         if (us.login === usuario && us.senha === senha) {
-            novaAba('prof.html');
             return true;
         }
     }
